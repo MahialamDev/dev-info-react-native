@@ -6,7 +6,7 @@
 
 Want to explore the portfolio directly on Android?
 
-### [⬇️ Download Android APK](https://github.com/MahialamDev/dev-info-react-native/releases/latest/download/app-release.apk)
+### [⬇️ Download Android APK](https://github.com/MahialamDev/dev-info-react-native/releases/latest/download/app-release2.apk)
 
 > **Note:** This is an APK for testing and portfolio demonstration. Android may show a security warning when installing an APK downloaded outside the Play Store.
 
