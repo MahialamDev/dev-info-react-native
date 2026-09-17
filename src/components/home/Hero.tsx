@@ -63,7 +63,7 @@ export default function HeroPage() {
   const openLink = (url: string) => Linking.openURL(url);
 
   return (
-      <ScrollView contentContainerStyle={styles.container} >
+      <ScrollView   contentContainerStyle={styles.container} >
       {/* Profile Image Section */}
       <Animated.View style={[styles.avatarContainer, avatarStyle]}>
         <Image
@@ -125,7 +125,7 @@ export default function HeroPage() {
         <TouchableOpacity
           style={styles.secondaryButton}
           activeOpacity={0.8}
-          onPress={() => {}}
+          onPress={() => openLink('https://dev-mahialam.vercel.app/')}
         >
           <Feather name="folder" size={16} color="#F8FAFC" />
           <Text style={styles.secondaryButtonText}>পোর্টফোলিও দেখুন</Text>
@@ -138,7 +138,7 @@ export default function HeroPage() {
         <TouchableOpacity
           style={styles.badge}
           activeOpacity={0.7}
-          onPress={() => openLink('https://github.com/')}
+          onPress={() => openLink('https://github.com/MahialamDev')}
         >
           <FontAwesome name="github" size={14} color="#94A3B8" />
           <Text style={styles.badgeText}>GitHub</Text>
@@ -147,7 +147,7 @@ export default function HeroPage() {
         <TouchableOpacity
           style={styles.badge}
           activeOpacity={0.7}
-          onPress={() => openLink('https://linkedin.com/')}
+          onPress={() => openLink('https://www.linkedin.com/in/mahialam-rahat/')}
         >
           <FontAwesome name="linkedin" size={14} color="#94A3B8" />
           <Text style={styles.badgeText}>LinkedIn</Text>
@@ -167,6 +167,10 @@ export default function HeroPage() {
 }
 
 const styles = StyleSheet.create({
+  scrollView: {
+    flex: 1,
+  },
+
   container: {
     flexGrow: 1,
     backgroundColor: '#0F172A',
