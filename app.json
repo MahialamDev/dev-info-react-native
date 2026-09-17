@@ -18,7 +18,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.mahialam_rahat.devinfo"
+      "package": "com.mahialam_rahat.devinfo",
+       "versionCode": 2
     },
     "web": {
       "output": "static",
